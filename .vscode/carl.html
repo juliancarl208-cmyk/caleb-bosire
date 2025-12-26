@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Field Farms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Green Field Farms</h1>
+    <p>Growing Food. Sustaining the Future.</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>
+        Green Field Farms is a modern agricultural company focused on sustainable
+        farming, food security, and environmental conservation.
+    </p>
+    <button onclick="toggleInfo()">Learn More</button>
+    <p id="extraInfo">
+        We use smart irrigation, organic fertilizers, and modern farming technology
+        to produce high-quality crops while protecting the environment.
+    </p>
+</section>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <ul>
+        <li>Crop Production</li>
+        <li>Organic Farming</li>
+        <li>Agri-Consultation</li>
+        <li>Smart Irrigation Systems</li>
+    </ul>
+</section>
+
+<section id="gallery">
+    <h2>Farm Gallery</h2>
+    <img id="farmSlide" src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Farm Image">
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <form onsubmit="return validateForm()">
+        <label>Name</label>
+        <input type="text" id="name">
+
+        <label>Email</label>
+        <input type="email" id="email">
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2025 Green Field Farms | Sustainable Agriculture</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
